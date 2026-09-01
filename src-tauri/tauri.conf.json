@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "tauri-test",
+  "productName": "★",
   "version": "0.1.0",
   "identifier": "com.houjin.tauri-test",
   "build": {
@@ -10,7 +10,7 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "tauri-test",
+        "title": "★",
         "width": 800,
         "height": 600
       }
