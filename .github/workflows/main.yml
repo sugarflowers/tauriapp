@@ -16,8 +16,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          path: .
 
       - name: Install Rust
         uses: dtolnay/rust-toolchain@stable
@@ -29,9 +27,6 @@ jobs:
 
       - name: Install frontend dependencies
         run: npm install
-
-      - name: Build frontend
-        run: npm run build
 
       - name: Build Tauri app
         run: npm run tauri build
